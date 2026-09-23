@@ -4,7 +4,7 @@
 
 <br/>
 
-<img src="https://img.shields.io/badge/QQ-1945406978-12B7F5?style=flat-square&logo=tencentqq&logoColor=white" alt="QQ" />
+<img src="https://img.shields.io/badge/tg-@alicewenice-12B7F5?style=flat-square&logo=tencentqq&logoColor=white" alt="QQ" />
 <img src="https://img.shields.io/badge/Focus-Building_things-1D9E75?style=flat-square" alt="Focus" />
 <img src="https://img.shields.io/badge/Status-Open_to_chat-7F77DD?style=flat-square" alt="Status" />
 
