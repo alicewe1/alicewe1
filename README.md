@@ -35,12 +35,8 @@
 ### 数据
 
 <p align="center">
-  <img height="170" src="https://gh-proxy.com/https://github-readme-stats.vercel.app/api?username=alicewe1&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=378ADD&icon_color=378ADD&text_color=5F5E5A&bg_color=00000000" alt="GitHub stats" />
-  <img height="170" src="https://gh-proxy.com/https://github-readme-stats.vercel.app/api/top-langs/?username=alicewe1&layout=compact&hide_border=true&langs_count=8&title_color=378ADD&text_color=5F5E5A&bg_color=00000000" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://gh-proxy.com/https://github-readme-streak-stats.herokuapp.com/?user=alicewe1&hide_border=true&background=00000000&ring=378ADD&fire=D85A30&currStreakLabel=378ADD" alt="Streak" />
+  <img height="170" src="https://github-readme-stats-one.vercel.app/api?username=alicewe1&show_icons=true&hide_border=true&include_all_commits=true&count_private=true&title_color=378ADD&icon_color=378ADD&text_color=5F5E5A&bg_color=00000000" alt="GitHub stats" />
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=alicewe1&hide_border=true&background=00000000&ring=378ADD&fire=D85A30&currStreakLabel=378ADD" alt="Streak" />
 </p>
 
 ---
@@ -49,11 +45,21 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/alicewe1/alicewe1/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://gh-proxy.com/https://raw.githubusercontent.com/alicewe1/alicewe1/output/github-contribution-grid-snake.svg" />
-    <img src="https://gh-proxy.com/https://raw.githubusercontent.com/alicewe1/alicewe1/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/alicewe1/alicewe1/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/alicewe1/alicewe1/output/github-contribution-grid-snake.svg" />
+    <img src="https://raw.githubusercontent.com/alicewe1/alicewe1/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
   </picture>
 </p>
+
+<!--
+图片源实测记录（2026-09-23）：
+- github-readme-stats.vercel.app 官方实例返回 503，已改用镜像 github-readme-stats-one.vercel.app
+- gh-proxy.com 只代理 github 系域名，不代理 vercel / heroku，统计卡不要加 gh-proxy 前缀
+- raw.githubusercontent.com 直连可用，贡献蛇不需要代理
+- Top Languages 卡暂未启用：当前唯一仓库是 fork，统计服务默认排除 fork。
+  以后有自己的非 fork 仓库后，在「数据」段落里补一行即可：
+  <img height="170" src="https://github-readme-stats-one.vercel.app/api/top-langs/?username=alicewe1&layout=compact&hide_border=true" alt="Top languages" />
+-->
 
 ---
 
